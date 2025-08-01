@@ -1,0 +1,11 @@
+hospital, P039, 439
+hospital, P044, 576
+hospital, P048, 493
+office, P000, 767
+office, P004, 682
+office2, P000, 308
+office2, P002, 703
+office2, P006, 354
+office2, P010, 558
+carwelding, P000, 452
+carwelding, P001, 832
