@@ -14,6 +14,9 @@ tqdm==4.65.0
 scikit-image==0.21.0
 ```
 
+## Models
+All pretrained models can be found <a href="https://drive.google.com/drive/folders/14MsOiHI2xIJ9w07hI-xrsX_1fHvoAAhq?usp=sharing">here</a>.
+
 ## Datasets
 All datasets can be downloaded from the following link:
 
