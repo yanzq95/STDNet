@@ -1,5 +1,20 @@
 <h2 align="center"> SpatioTemporal Difference Network for Video Depth Super-Resolution </h2>
 
+<p align="center"><a href="https://scholar.google.com/citations?user=VogTuQkAAAAJ&hl=zh-CN">Zhengxue Wang</a><sup>1</sup>, 
+<a href="https://scholar.google.com.hk/citations?user=VoIgY38AAAAJ&hl=zh-CN">Yuan Wu</a><sup>1</sup>,
+<a href="https://implus.github.io/">Xiang Li</a><sup>2</sup>,
+  <a href="https://yanzq95.github.io/">Zhiqiang Yan✉</a><sup>3</sup>, 
+<a href="https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN">Jian Yang✉</a><sup>1</sup>  <!--&Dagger;-->
+</p>
+
+<p align="center">
+  <sup>✉</sup>Corresponding author&nbsp;&nbsp;&nbsp;<br>
+  <sup>1</sup>Nanjing University of Science and Technology&nbsp;&nbsp;&nbsp;
+  <br>
+  <sup>2</sup>Nankai University&nbsp;&nbsp;&nbsp;
+  <sup>3</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
+</p>
+
 ## Dependencies
 
 ```bash
