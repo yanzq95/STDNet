@@ -17,7 +17,7 @@
 
 
 <p align="center">
-<img src="Figs/Pipeline.png", width="800"/>
+<img src="Figs/Pipeline.PNG", width="850"/>
 </p>
 
 Overview of STDNet. Given $\boldsymbol D_{LR}$, we first predict its spatial difference representation $\boldsymbol \sigma$. Then, $\boldsymbol D_{LR}$, $\boldsymbol I$, and $\boldsymbol \sigma$ are jointly fed into the spatial difference to enhance non-smooth regions, producing $\boldsymbol F_{sd}$. Next, we estimate the temporal difference representations for consecutive frames and cross frames, generating $\boldsymbol \varphi$ and $\widehat{\boldsymbol \varphi}$. These difference representations are used to propagate adjacent RGB and depth frames to the current depth frame, generating HR depth video $\boldsymbol D_{HR}$. Finally, a degradation regularization takes $\boldsymbol D_{HR}$, $\boldsymbol D_{GT}$, $\boldsymbol \sigma$, $\boldsymbol \varphi$, and $\widehat{\boldsymbol \varphi}$ as inputs to optimize the learning of spatiotemporal difference representations.
@@ -76,7 +76,7 @@ python test_DynamicReplica.py --scale 4
 ### Quantitative comparison
 
 <p align="center">
-<img src="Figs/qc", width="500"/>
+<img src="Figs/qc.png", width="500"/>
 <br>
 Quantitative comparisons between our STDNet and previous state-of-the-art methods on TarTanAir dataset.
 </p>
@@ -86,7 +86,7 @@ Quantitative comparisons between our STDNet and previous state-of-the-art method
 ### Visual comparison
 
 <p align="center">
-<img src="Figs/visual", width="1000"/>
+<img src="Figs/visual.png", width="900"/>
 <br>
 Visual results on the DyDToF and DynamicReplica datasets ($\times8$).
 </p>
