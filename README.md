@@ -25,17 +25,7 @@ Overview of STDNet. Given $\boldsymbol D_{LR}$, we first predict its spatial dif
 
 ## Dependencies
 
-```bash
-Python==3.11.5
-mmcv-full==1.7.2
-torch==2.1.0
-numpy==1.23.5 
-torchvision==0.16.0
-scipy==1.11.3
-Pillow==10.0.1
-tqdm==4.65.0
-scikit-image==0.21.0
-```
+Please refer to ``'env.yaml'``.
 
 ## Models
 All pretrained models can be found <a href="https://drive.google.com/drive/folders/14MsOiHI2xIJ9w07hI-xrsX_1fHvoAAhq?usp=sharing">here</a>.
