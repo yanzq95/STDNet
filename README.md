@@ -73,10 +73,10 @@ Overview of STDNet. Given $\boldsymbol D_{LR}$, we first predict its spatial dif
 
 Please refer to ``'env.yaml'``.
 
-## Models
+## 💾 Models
 All pretrained models can be found <a href="https://drive.google.com/drive/folders/14MsOiHI2xIJ9w07hI-xrsX_1fHvoAAhq?usp=sharing">here</a>.
 
-## Datasets
+## 📥Datasets
 All datasets can be downloaded from the following link:
 
 [TarTanAir](https://github.com/castacks/tartanair_tools)
@@ -87,7 +87,7 @@ All datasets can be downloaded from the following link:
 
 Additionally, we provide a DyDToF test subset in the ``'dataset'`` folder for quick implementation, with the corresponding index file is ``'data/dydtof_list/school_shot8_subset.txt'``.
 
-## Training
+## 🏋️ Training
 
 ```
 cd STDNet
@@ -96,7 +96,7 @@ mkdir -p experiment/SRDNet_$scale$/MAE_best
 python -m torch.distributed.launch --nproc_per_node 2 train.py --scale 4 --result_root 'experiment/SRDNet_$scale$' --result_root_MAE 'experiment/SRDNet_$scale$/MAE_best'
 ```
 
-## Testing
+## ⚡Testing
 
 ```
 ### TarTanAir dataset
@@ -107,9 +107,7 @@ python test_DyDToF.py --scale 4
 python test_DynamicReplica.py --scale 4
 ```
 
-## Experiments
-
-### Quantitative comparison
+## 📊Experiments
 
 <p align="center">
 <img src="Figs/qc.png", width="500"/>
@@ -117,12 +115,14 @@ python test_DynamicReplica.py --scale 4
 Quantitative comparisons between our STDNet and previous state-of-the-art methods on TarTanAir dataset.
 </p>
 
+## 📝 Citation
 
-
-### Visual comparison
-
-<p align="center">
-<img src="Figs/visual.png", width="900"/>
-<br>
-Visual results on the DyDToF and DynamicReplica datasets ($\times8$).
-</p>
+If our method proves to be of any assistance, please consider citing:
+```
+@article{wang2025spatiotemporal,
+  title={SpatioTemporal Difference Network for Video Depth Super-Resolution},
+  author={Wang, Zhengxue and Wu, Yuan and Li, Xiang and Yan, Zhiqiang and Yang, Jian},
+  journal={arXiv preprint arXiv:2508.01259},
+  year={2025}
+}
+```
