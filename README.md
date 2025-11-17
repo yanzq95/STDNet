@@ -1,7 +1,4 @@
-<p align="center">
-<h2 align="center"> Accepted to AAAI 2026 Oral! </h2>
-
-<h2 align="center"> SpatioTemporal Difference Network for Video Depth Super-Resolution </h2>
+<h2 align="center"> SpatioTemporal Difference Network for Video Depth Super-Resolution (AAAI 2026 Oral) </h2>
 
 <p align="center">
   <a href="https://arxiv.org/pdf/2508.01259">
@@ -24,51 +21,51 @@
   <sup>3</sup>National University of Singapore&nbsp;&nbsp;&nbsp;
 </p>
 
+## 🎬 Video demo
+<div align="center">
+<table>
+  <tr>
+    <td align="center">
+      <img src="Figs/Ours.gif" width="150" />
+      <br>
+      LR
+    </td>
+    <td align="center">
+      <img src="Figs/Ours.gif" width="250" />
+      <br>
+      C2PD
+    </td>
+    <td align="center">
+      <img src="Figs/Ours.gif" width="250" />
+      <br>
+      DORNet
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="Figs/Ours.gif" width="250" />
+      <br>
+      RGB
+    </td>
+    <td align="center">
+      <img src="Figs/Ours.gif" width="250" />
+      <br>
+      <strong>Ours</strong>
+    </td>
+    <td align="center">
+      <img src="Figs/Ours.gif" width="250" />
+      <br>
+      GT
+    </td>
+  </tr>
+</table>
+</div>
+
 <p align="center">
 <img src="Figs/Pipeline.PNG", width="850"/>
 </p>
 
 Overview of STDNet. Given $\boldsymbol D_{LR}$, we first predict its spatial difference representation $\boldsymbol \sigma$. Then, $\boldsymbol D_{LR}$, $\boldsymbol I$, and $\boldsymbol \sigma$ are jointly fed into the spatial difference to enhance non-smooth regions, producing $\boldsymbol F_{sd}$. Next, we estimate the temporal difference representations for consecutive frames and cross frames, generating $\boldsymbol \varphi$ and $\widehat{\boldsymbol \varphi}$. These difference representations are used to propagate adjacent RGB and depth frames to the current depth frame, generating HR depth video $\boldsymbol D_{HR}$. Finally, a degradation regularization takes $\boldsymbol D_{HR}$, $\boldsymbol D_{GT}$, $\boldsymbol \sigma$, $\boldsymbol \varphi$, and $\widehat{\boldsymbol \varphi}$ as inputs to optimize the learning of spatiotemporal difference representations.
-
-
-<div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <img src="Figs/Ours.gif" width="200" />
-      <br>
-      <strong>功能一</strong>
-    </td>
-    <td align="center">
-      <img src="Figs/Ours.gif" width="200" />
-      <br>
-      <strong>功能二</strong>
-    </td>
-    <td align="center">
-      <img src="Figs/Ours.gif" width="200" />
-      <br>
-      <strong>功能三</strong>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="Figs/Ours.gif" width="200" />
-      <br>
-      <strong>功能四</strong>
-    </td>
-    <td align="center">
-      <img src="Figs/Ours.gif" width="200" />
-      <br>
-      <strong>功能五</strong>
-    </td>
-    <td align="center">
-      <img src="Figs/Ours.gif" width="200" />
-      <br>
-      <strong>功能六</strong>
-    </td>
-  </tr>
-</table>
-</div>
 
 ## Dependencies
 
