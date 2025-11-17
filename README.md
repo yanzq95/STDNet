@@ -1,4 +1,13 @@
+<p align="center">
+<h2 align="center"> Accepted to AAAI 2026 Oral! </h2>
+
 <h2 align="center"> SpatioTemporal Difference Network for Video Depth Super-Resolution </h2>
+
+<p align="center">
+  <a href="https://arxiv.org/pdf/2508.01259">
+    <img src="https://img.shields.io/badge/arXiv-2505.20641-b31b1b.svg?style=for-the-badge" alt="arXiv Paper">
+  </a>
+</p>
 
 <p align="center"><a href="https://scholar.google.com/citations?user=VogTuQkAAAAJ&hl=zh-CN">Zhengxue Wang</a><sup>1</sup>, 
 <a href="https://scholar.google.com.hk/citations?user=VoIgY38AAAAJ&hl=zh-CN">Yuan Wu</a><sup>1</sup>,
