@@ -26,24 +26,24 @@
 <table>
   <tr>
     <td align="center">
-      <img src="Figs/Ours.gif" width="150" />
+      <img src="Figs/LR.gif" width="120" />
       <br>
       LR
     </td>
     <td align="center">
-      <img src="Figs/Ours.gif" width="250" />
+      <img src="Figs/C2PD.gif" width="250" />
       <br>
       C2PD
     </td>
     <td align="center">
-      <img src="Figs/Ours.gif" width="250" />
+      <img src="Figs/DORNet.gif" width="250" />
       <br>
       DORNet
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="Figs/Ours.gif" width="250" />
+      <img src="Figs/RGB.gif" width="250" />
       <br>
       RGB
     </td>
@@ -53,7 +53,7 @@
       <strong>Ours</strong>
     </td>
     <td align="center">
-      <img src="Figs/Ours.gif" width="250" />
+      <img src="Figs/GT.gif" width="250" />
       <br>
       GT
     </td>
