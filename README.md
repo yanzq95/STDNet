@@ -6,7 +6,7 @@
   </a>
 </p>
 
-<p align="center"><a href="https://scholar.google.com/citations?user=VogTuQkAAAAJ&hl=zh-CN">Zhengxue Wang</a><sup>1</sup>, 
+<p align="center"><a href="https://wzx0826.github.io/">Zhengxue Wang</a><sup>1</sup>, 
 <a href="https://scholar.google.com.hk/citations?user=VoIgY38AAAAJ&hl=zh-CN">Yuan Wu</a><sup>1</sup>,
 <a href="https://implus.github.io/">Xiang Li</a><sup>2</sup>,
   <a href="https://yanzq95.github.io/">Zhiqiang Yan✉</a><sup>3</sup>, 
@@ -119,10 +119,13 @@ Quantitative comparisons between our STDNet and previous state-of-the-art method
 
 If our method proves to be of any assistance, please consider citing:
 ```
-@article{wang2025spatiotemporal,
-  title={SpatioTemporal Difference Network for Video Depth Super-Resolution},
+@inproceedings{wang2026spatiotemporal,
+  title={Spatiotemporal difference network for video depth super-resolution},
   author={Wang, Zhengxue and Wu, Yuan and Li, Xiang and Yan, Zhiqiang and Yang, Jian},
-  journal={arXiv preprint arXiv:2508.01259},
-  year={2025}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={12},
+  pages={10403--10411},
+  year={2026}
 }
 ```
